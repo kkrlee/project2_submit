@@ -9,5 +9,5 @@ In therms of __time complexity__, trying to be guided by the
 [Master theorem](https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms)), tough not being able to 
 quantify the size of _n/b_ (as it's a folders depth and it needs not to be splitted proportionally). Thus, using
 another approach, the time complexity is dependant on the number of iterations that are launched. Being in this case
-dependent on __depth__ and __width__ of folders, resulting in a __O(d*w)__. As for the space complexity, in this case, 
-it is directly dependent on the number of returns the function does, hence, the number of found files __f__, __O(f)__.
+dependent on __depth__ and __width__ of folders, resulting in a __O(d*w)__. 
+As for the space complexity, in this case, spcae complexity is O(depth).
